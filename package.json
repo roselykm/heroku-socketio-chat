@@ -1,0 +1,17 @@
+{
+  "name": "socket-io-chat-on-heroku",
+  "version": "0.2.5",
+  "description": "A socket.io chat on heroku",
+  "engines": {
+    "node": "5.9.1"
+  },
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "4.13.3",
+    "socket.io": "1.4.5"
+  },
+  "license": "MIT"
+}
