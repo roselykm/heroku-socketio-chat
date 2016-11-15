@@ -1,6 +1,6 @@
 {
   "name": "socket-io-chat-on-heroku",
-  "version": "0.2.5",
+  "version": "0.0.0",
   "description": "A socket.io chat on heroku",
   "engines": {
     "node": "5.9.1"
