@@ -2,6 +2,7 @@ var app = require('express')();
 var http = require('http').Server(app);
 var io = require('socket.io')(http);
 
+//the port is what heroku assign to us
 app.set('port', (process.env.PORT || 5000));
 
 app.get('/', function(req, res){
@@ -22,5 +23,5 @@ io.on('connection', function(socket){
 });
 
 http.listen(app.get('port'), function() {
-  console.log('Socket.io char is running on port', app.get('port'));
+  console.log('Socket.io chat is running on port', app.get('port'));
 });
